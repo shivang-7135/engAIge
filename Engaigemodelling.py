@@ -7,7 +7,8 @@ import faiss
 import json
 import re
 
-pdf_folder = '/Users/shivangsinha/Downloads/engAIge/testCheck'
+# This folder should contain all the pdf files which we need to work on . Below given is just an example
+pdf_folder = '/Users/shivangsinha/Downloads/engAIge/...'
 pdf_text_data = {}
 embeddings = []
 metadata = []
